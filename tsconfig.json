@@ -1,0 +1,7 @@
+{
+    "conpilerOptions": {
+        "targer": "esnext",
+        "watch": true,
+        "lib": ["dom", "es2017"]
+    }
+}
