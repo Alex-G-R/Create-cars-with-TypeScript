@@ -1,0 +1,30 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightcyan;
+    font-family: Arial;
+    font-size: 1.5em;
+}
+
+label{
+    font-weight: 400;
+}
+
+input{
+    height: 30px;
+    min-width: 20px;
+    max-width: 200px;
+    font-size: 26px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.dataInput{
+    margin-top: 20px;
+}
