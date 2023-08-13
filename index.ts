@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         carList.appendChild(carElement);
 
         // Voilà! We proudly present their new ride. They'll be revving with excitement!
+        // It was really hard to find that extra(fva)gant à.
     });
 });
 
