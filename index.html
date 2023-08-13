@@ -2,29 +2,46 @@
 <html>
 <head>
     <title>Create Cars</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <h1>Create Cars</h1>
     <form id="carForm">
-        <label for="model">Model:</label>
-        <input type="text" id="model" name="model"><br>
         
-        <label for="brand">Brand:</label>
-        <input type="text" id="brand" name="brand"><br>
+        <section class="dataInput">
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="model"><br>
+        </section>
+
+        <section class="dataInput">
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" name="brand"><br>
+        </section>
         
-        <label for="color">Color:</label>
-        <input type="text" id="color" name="color"><br>
+        <section class="dataInput">
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color"><br>    
+        </section>
         
-        <label for="VIN">VIN:</label>
-        <input type="number" id="VIN" name="VIN"><br>
+        <section class="dataInput">
+            <label for="VIN">VIN:</label>
+            <input type="number" id="VIN" name="VIN"><br>
+        </section>
+
+        <section class="dataInput">
+            <label for="yearOfProduction">Year of Production:</label>
+            <input type="number" id="yearOfProduction" name="yearOfProduction"><br>
+        </section>
         
-        <label for="yearOfProduction">Year of Production:</label>
-        <input type="number" id="yearOfProduction" name="yearOfProduction"><br>
-        
-        <label for="electric">Electric:</label>
-        <input type="checkbox" id="electric" name="electric"><br>
-        
-        <button type="button" id="createCar">Create Car</button>
+        <section class="dataInput">
+            <label for="electric">Electric:</label>
+            <input type="checkbox" id="electric" name="electric"><br>
+        </section>
+
+        <section class="dataInput">
+            <button type="button" id="createCar">Create Car</button>
+        </section>
+
     </form>
     
     <div id="carList">
